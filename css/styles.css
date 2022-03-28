@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+/* change background color based on flavor */
+:root {
+  --vanilla: #fff0d9;
+  --cookie-dough: #e9c242;
+  --rainbow-sherbert: #fb78d4dc;
+
+  --font: 'Josefin Sans';
+}
+
+body {
+  background-color: var(--vanilla);
+  font-family: var(--font);
+  margin: auto;
+}
+
+#ice_cream {
+  margin-left: 1rem;
+}
+
+.container {
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  margin-top: 5%;
+}
+
+#inputBox{
+  border-radius: 12px;
+  width: 500px;
+  height: 3rem;
+}
+
+#inputBox:active {
+  background-color: rgba(198, 233, 221, 0.527);
+}
+
+.container button {
+  background: var(--rainbow-sherbert);
+  border-radius: 10px;
+  display: flex;
+  margin: 2%;
+  width: 70px;
+}
